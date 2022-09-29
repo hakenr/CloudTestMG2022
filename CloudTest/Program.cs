@@ -13,6 +13,8 @@ if (!app.Environment.IsDevelopment())
 	app.UseHsts();
 }
 
+// app.Configuration.GetConnectionString("MyAzureSuperStorageAccount");
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
